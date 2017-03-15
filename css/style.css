@@ -1,0 +1,173 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Menu */
+
+.logo{
+    float: left;
+    margin: 0.6vw 0 0 7%;
+    width: 8vw;
+}
+
+nav {
+    width: 100%;
+    background-color:#232121;
+}
+
+nav ul{
+    text-align: right;
+    margin: 0 5%;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+nav a {
+    font-size: 0.9vw;
+    color:#ffffff;
+    display:block;
+    text-decoration: none;
+    padding: 1.5vw 1.5vw;  /*Было 25px  20px  */
+
+}
+
+nav a:hover {
+    background: #96c341;
+}
+
+.menu-trigger {
+    display:none;
+    color:#ffffff;
+}
+
+@media screen and (max-width:500px) {
+    .menu-trigger {
+        display:block;
+        text-align: right;
+    }
+
+    nav ul li {
+        display:block;
+        border-top:1px #79896D solid;
+    }
+    nav ul {
+        display:none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Slider */
+.content{
+    height: 42.39vw;
+}
+
+.slideshow-container{
+    width: 100%;
+    position: relative;
+}
+
+.img{
+    position: relative;
+    font-family: 'Oswald', serif;
+}
+
+div#rotator ul li > div{
+    display: none;
+    position: absolute;
+    color: #ffffff;
+}
+
+div#rotator ul li > div.title_1{
+    top: 25%;
+    left: 10%;
+}
+
+div#rotator ul li > div.title_2{
+    top: 40%;
+    left: 30%;
+}
+
+div#rotator ul li > div.title_3{
+    top: 55%;
+    left: 50%;
+}
+
+div#rotator ul li > div div:first-child{
+    font-size: 2.5vw;
+}
+
+div#rotator ul li > div div{
+    font-size: 1.3vw;
+    line-height: 3vw;
+}
+
+div#content {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+div#rotator ul {
+    margin: 0;
+}
+div#rotator ul li {
+    position:absolute;
+    left: 0;
+    top: 0;
+    list-style:none;
+    margin: 0 auto;
+    width: 100%;
+}
+div#rotator ul li.show {
+    z-index:500;
+}
+div#rotator ul li img{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 3.05vw;
+    line-height: 3vw;
+    background-color: #232121;
+    font-size: 0.8vw;
+}
+
+footer span{
+    margin: 0 0 0 17%;
+    float: left;
+    color: white;
+}
+
+footer ul{
+    margin: 0 0 0 65%;
+}
+
+footer ul li{
+    margin: 0 0 0 5%;
+    display: inline-block;
+}
+
+/* Icon */
+
+footer ul li a img.vk{
+    width: 1vw;
+    height: auto;
+}
+
+footer ul li a img.instagram{
+    width: 0.8vw;
+    height: auto;
+}
+
+footer ul li a img.facebook{
+    width: 0.45vw;
+    height: auto;
+}
