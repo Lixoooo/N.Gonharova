@@ -171,3 +171,28 @@ footer ul li a img.facebook{
     width: 0.45vw;
     height: auto;
 }
+
+
+
+/* portfolio */
+
+.portfolio{
+    width: 100%;
+    text-align: center;
+    background-color: #232121;
+
+}
+
+.col {
+    width: 100%;
+    max-width: 19.6%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .col {max-width: 48%}
+}
+
+@media (max-width: 480px) {
+    .col {max-width: 100%}
+}
